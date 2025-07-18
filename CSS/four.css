@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* primary colours */
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /* Neutral color */
+    --Grey-500: hsl(234, 12%, 34%);
+    --Grey-400: hsl(212, 6%, 44%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    border: 2px solid black;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.hero h2 {
+    color: var(--Grey-400);
+}
+
+.hero h1 {
+    color: var(--Grey-500);
+}
+
+.hero p {
+    text-align: center;
+    font-size: 12px;
+    color: var(--Grey-500);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding: 40px;
+    width: 60%;
+    box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.2) ;
+    border-radius: 8px;
+    /* height: 150px; */
+}
+
+.red {
+    border-top: 4px solid var(--Red);
+}
+
+.cyan {
+    border-top: 4px solid var(--Cyan);
+}
+
+.orange {
+    border-top: 4px solid var(--Orange);
+
+}
+
+.blue {
+    border-top: 4px solid var(--Blue);
+
+}
+
+.card h1 {
+    font-size: 18px;
+    color: var(--Grey-500);
+}
+
+.card p {
+    font-size: 13px;
+    color: var(--Grey-400);
+}
+
+/* .card-img {
+    display: flex;
+    flex-direction: row;
+    align-items: en;  
+} */
+
+.card-img img {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    
+    width: 60%;
+}
