@@ -22,12 +22,12 @@ body {
 }
 
 main {
-    border: 2px solid black;
     display: flex ;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    gap: 50px;
+    padding: 60px;
+
 }
 
 .hero {
@@ -53,12 +53,10 @@ main {
 
 .container {
     display: flex;
-    /* flex-direction: column;
-    align-items: center; */
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    margin: 0, auto;
-    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 
@@ -73,6 +71,7 @@ main {
     width: 60%;
     box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.2) ;
     border-radius: 8px;
+    position: relative;
     /* height: 150px; */
 }
 
@@ -80,7 +79,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    width: 100%;
 }
 
 .red {
